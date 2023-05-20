@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Задача 7 HARD по желанию - идет за 2 обязательных Напишите программу, которая принимает на вход целое число любой разрядности и на выходе показывает третью цифру слева этого числа или говорит, что такой цифры нет. Через строку решать нельзя.
+// 456111 -> 6
+// 78 -> нет
+// 9146548 -> 4
+// 3 -> нет
+
+Console.WriteLine("Введите целое число");
+int num1 = Convert.ToInt32 (Console.ReadLine());
+int count = 100;
+while (num1%count<num1)
+{
+    System.Console.Write(num1%count);
+    count=count*10;
+}
