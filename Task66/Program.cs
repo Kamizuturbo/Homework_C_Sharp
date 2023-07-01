@@ -2,6 +2,7 @@
 // // M = 1; N = 15 -> 120
 // // M = 4; N = 8. -> 30
 
+Console.Clear();
 Console.Write("Привет! Введи число M: ");
 int m = Convert.ToInt32(Console.ReadLine());
 
