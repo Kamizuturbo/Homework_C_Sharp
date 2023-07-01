@@ -7,7 +7,7 @@
 N = 5 -> "5, 4, 3, 2, 1"
 N = 8 -> "8, 7, 6, 5, 4, 3, 2, 1"
 */
-
+Console.Clear();
 Console.WriteLine("Привет! Введи натуральное число больше 1:");
 int number = int.Parse(Console.ReadLine());
 
